@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='pstyles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2><strong>Prediction Result</strong></h2>
+        
+        <!-- Display the prediction result -->
+        <p>The prediction for the entered data is: <strong>{{ result }}</strong></p>
+
+        <!-- Educational Information -->
+        <h3>What does this mean?</h3>
+        <p><strong>Malignant:</strong> Indicates the presence of potentially cancerous cells.</p>
+        <p><strong>Benign:</strong> Indicates that the cells are non-cancerous.</p>
+
+        <!-- Explanation link for Decision Tree algorithm -->
+        <h3>Want to learn more?</h3>
+        <p>Curious about how this prediction was made? <a href="https://mlu-explain.github.io/decision-tree/" target="_blank">Click here</a> to explore how the Decision Tree algorithm works under the hood.</p>
+
+        <!-- Button to predict again -->
+        <form action="{{ url_for('predict') }}" method="GET">
+            <button type="submit">Predict Again</button>
+        </form>
+
+        <!-- Navigation options -->
+        <br>
+        <a href="{{ url_for('options') }}">Back to Options</a>
+        <br>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>

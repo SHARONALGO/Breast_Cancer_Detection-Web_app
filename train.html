@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Model</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='trainstyles.css') }}">
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.4); 
+            padding-top: 60px; 
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Scrollable data container */
+        .data-container {
+            max-height: 300px;
+            max-width: 100%;
+            overflow: auto;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .data-container table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Train button styling */
+        .train-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .train-button:hover {
+            background-color: #d81b60;
+        }
+
+        /* Loading spinner styles */
+        .spinner {
+            border: 4px solid rgba(0,0,0,0.1);
+            border-radius: 50%;
+            border-top: 4px solid #e91e63;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="train-container">
+        <h2>Upload Training Data</h2>
+        <p>Please upload the training data of your hospital here:</p>
+        <form action="{{ url_for('train') }}" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Upload</button>
+        </form>
+        
+        {% if data_html %}
+        <div id="dataModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Uploaded Data (Top 10 Rows & Columns)</h2>
+                <div class="data-container">
+                    {{ data_html | safe }}
+                </div>
+                <form id="trainForm" action="{{ url_for('train_model') }}" method="POST">
+                    <button type="submit" class="train-button">Train Model</button>
+                </form>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("dataModal");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the page loads, open the modal if there's data to display
+        window.onload = function() {
+            if (modal) {
+                modal.style.display = "block";
+            }
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Prevent the train form from being submitted directly from the modal open state
+        document.getElementById("trainForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Perform any necessary pre-training logic here (e.g., showing loading screen)
+            var modalContent = document.querySelector('.modal-content');
+            modalContent.innerHTML = `
+                <div class="spinner"></div>
+                <p>Training in progress... Please wait.</p>
+            `;
+
+            // Submit the form via JavaScript to avoid page reload
+            var formData = new FormData(this);
+            fetch("{{ url_for('train_model') }}", {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === "success") {
+                    modalContent.innerHTML = `
+                        <p>Training Completed. Accuracy: ${data.accuracy.toFixed(2)}%</p>
+                    `;
+                    // Add analysis button
+                    var analysisButton = document.createElement('a');
+                    analysisButton.href = "{{ url_for('analysis') }}";
+                    analysisButton.innerText = "Go to Analysis";
+                    analysisButton.classList.add('train-button');
+                    modalContent.appendChild(analysisButton);
+                } else {
+                    modalContent.innerHTML = '<p>Error during training. Please try again.</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                modalContent.innerHTML = '<p>Failed to train the model. Please try again.</p>';
+            });
+        });
+    </script>
+</body>
+</html>

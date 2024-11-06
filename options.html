@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='options.css') }}">
+    <style>
+        /* Basic styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            color: #e91e63;
+            margin-bottom: 20px;
+        }
+
+        .container .options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .container .options a {
+            background-color: #e91e63;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .container .options a:hover {
+            background-color: #d81b60;
+        }
+
+        .container .options a:active {
+            background-color: #c2185b;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ username }}</h1>
+        <p>Select an option:</p>
+        <div class="options">
+            <a href="{{ url_for('train') }}">Train</a>
+            <a href="{{ url_for('analysis') }}">Analysis</a>
+            <a href="{{ url_for('predict') }}">Predict</a>
+            <a href="{{ url_for('detect_from_images') }}">Detect from Images</a>
+            <a href="{{ url_for('about') }}">About Us</a>
+        </div>
+    </div>
+</body>
+</html>
