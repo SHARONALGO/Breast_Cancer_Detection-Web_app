@@ -1,0 +1,82 @@
+/* trainstyles.css */
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Container for the training section */
+.train-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.train-container h2 {
+    color: #e91e63;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* File upload input styles */
+.train-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Train button styles */
+.train-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.train-container button:hover {
+    background-color: #d81b60;
+}
+
+/* Display table for the uploaded CSV file */
+.train-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.train-container table, th, td {
+    border: 1px solid #ddd;
+}
+
+.train-container th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.train-container th {
+    background-color: #f2f2f2;
+}
+
+.train-container td {
+    background-color: #fff;
+}
+
+/* For small screens */
+@media (max-width: 600px) {
+    .train-container {
+        width: 90%;
+    }
+}

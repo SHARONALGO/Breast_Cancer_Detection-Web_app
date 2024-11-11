@@ -1,0 +1,458 @@
+2024-10-16 09:30:42,095 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 09:30:42,096 INFO: [33mPress CTRL+C to quit[0m
+2024-10-16 09:30:42,099 INFO:  * Restarting with stat
+2024-10-16 09:30:47,913 WARNING:  * Debugger is active!
+2024-10-16 09:30:47,921 INFO:  * Debugger PIN: 640-670-222
+2024-10-16 09:30:50,783 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:50] "GET / HTTP/1.1" 200 -
+2024-10-16 09:30:51,040 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:51] "GET /static/homestyles.css HTTP/1.1" 200 -
+2024-10-16 09:30:51,071 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:51] "GET /static/breast_cancer_background.jpg HTTP/1.1" 200 -
+2024-10-16 09:30:51,076 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-16 09:30:54,246 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-16 09:30:54,278 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:54] "GET /options HTTP/1.1" 200 -
+2024-10-16 09:30:54,304 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:54] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-10-16 09:30:55,737 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:55] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-16 09:30:55,773 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:55] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-16 09:30:55,785 INFO: 127.0.0.1 - - [16/Oct/2024 09:30:55] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-16 09:31:16,066 INFO: 127.0.0.1 - - [16/Oct/2024 09:31:16] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-16 09:31:16,073 INFO: 127.0.0.1 - - [16/Oct/2024 09:31:16] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-16 09:31:16,091 INFO: 127.0.0.1 - - [16/Oct/2024 09:31:16] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-16 09:31:16,092 INFO: 127.0.0.1 - - [16/Oct/2024 09:31:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 13:39:21,172 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-18 13:39:21,172 INFO: [33mPress CTRL+C to quit[0m
+2024-10-18 13:39:21,175 INFO:  * Restarting with stat
+2024-10-18 13:39:24,064 WARNING:  * Debugger is active!
+2024-10-18 13:39:24,148 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 13:39:49,583 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:49] "GET / HTTP/1.1" 200 -
+2024-10-18 13:39:49,868 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:49] "GET /static/homestyles.css HTTP/1.1" 200 -
+2024-10-18 13:39:49,899 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:49] "GET /static/breast_cancer_background.jpg HTTP/1.1" 200 -
+2024-10-18 13:39:49,900 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-18 13:39:53,149 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-18 13:39:53,174 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:53] "GET /options HTTP/1.1" 200 -
+2024-10-18 13:39:53,212 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:53] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-10-18 13:39:57,145 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:57] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 13:39:57,168 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:57] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-18 13:39:57,185 INFO: 127.0.0.1 - - [18/Oct/2024 13:39:57] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-18 13:40:06,916 INFO: 127.0.0.1 - - [18/Oct/2024 13:40:06] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 13:40:06,922 INFO: 127.0.0.1 - - [18/Oct/2024 13:40:06] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 13:40:06,942 INFO: 127.0.0.1 - - [18/Oct/2024 13:40:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 13:40:06,947 INFO: 127.0.0.1 - - [18/Oct/2024 13:40:06] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-18 13:41:16,460 INFO: 127.0.0.1 - - [18/Oct/2024 13:41:16] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 13:41:16,470 INFO: 127.0.0.1 - - [18/Oct/2024 13:41:16] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 13:41:16,506 INFO: 127.0.0.1 - - [18/Oct/2024 13:41:16] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-18 13:41:16,507 INFO: 127.0.0.1 - - [18/Oct/2024 13:41:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:18:54,469 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-18 14:18:54,470 INFO: [33mPress CTRL+C to quit[0m
+2024-10-18 14:18:54,473 INFO:  * Restarting with stat
+2024-10-18 14:18:57,084 WARNING:  * Debugger is active!
+2024-10-18 14:18:57,088 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 14:22:03,314 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:03] "GET / HTTP/1.1" 200 -
+2024-10-18 14:22:03,445 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:03] "GET /static/homestyles.css HTTP/1.1" 200 -
+2024-10-18 14:22:03,464 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:03] "GET /static/breast_cancer_background.jpg HTTP/1.1" 200 -
+2024-10-18 14:22:04,374 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-18 14:22:08,090 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-18 14:22:08,113 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:08] "GET /options HTTP/1.1" 200 -
+2024-10-18 14:22:08,134 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:08] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-10-18 14:22:09,687 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:09] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:22:09,707 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:09] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-18 14:22:09,720 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:09] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-18 14:22:16,601 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:16] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:22:16,609 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:16] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:22:16,629 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:22:16,632 INFO: 127.0.0.1 - - [18/Oct/2024 14:22:16] "[33mGET /static/scan.gif HTTP/1.1[0m" 404 -
+2024-10-18 14:27:21,456 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:21] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:27:21,465 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:21] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:27:21,484 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:27:21,496 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:21] "GET /static/scan.gif HTTP/1.1" 200 -
+2024-10-18 14:27:45,006 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:45] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:27:45,011 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:45] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:27:45,028 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:27:45,035 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:45] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:27:51,811 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:51] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:27:51,817 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:51] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:27:51,834 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:27:51,837 INFO: 127.0.0.1 - - [18/Oct/2024 14:27:51] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:38:24,973 INFO: 127.0.0.1 - - [18/Oct/2024 14:38:24] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:38:24,979 INFO: 127.0.0.1 - - [18/Oct/2024 14:38:24] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:38:24,996 INFO: 127.0.0.1 - - [18/Oct/2024 14:38:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:38:24,999 INFO: 127.0.0.1 - - [18/Oct/2024 14:38:24] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:47:18,293 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-18 14:47:18,763 INFO:  * Restarting with stat
+2024-10-18 14:47:23,339 WARNING:  * Debugger is active!
+2024-10-18 14:47:23,343 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 14:47:35,372 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:35] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:47:35,388 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:35] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:47:35,572 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:35] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:47:35,575 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:47:41,608 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:41] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:47:41,626 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:47:41,631 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:41] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:47:43,585 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:43] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:47:43,609 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:47:43,611 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:43] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:47:43,824 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:43] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:47:43,845 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:47:43,845 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:43] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:47:44,122 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:44] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:47:44,147 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:47:44,148 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:44] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:47:49,302 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:49] "GET / HTTP/1.1" 200 -
+2024-10-18 14:47:49,421 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:49] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:47:49,437 INFO: 127.0.0.1 - - [18/Oct/2024 14:47:49] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-10-18 14:48:08,057 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-18 14:48:08,070 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:08] "GET /options HTTP/1.1" 200 -
+2024-10-18 14:48:08,093 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:08] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-10-18 14:48:09,827 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:09] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:48:09,851 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:48:09,851 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:09] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:48:15,911 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:15] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:48:15,918 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:15] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:48:15,936 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:48:15,939 INFO: 127.0.0.1 - - [18/Oct/2024 14:48:15] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:49:06,664 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:06] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:49:06,685 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:49:06,698 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:06] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:49:12,699 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:12] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:49:12,704 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:12] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:49:12,728 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:49:12,729 INFO: 127.0.0.1 - - [18/Oct/2024 14:49:12] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:53:57,295 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-18 14:53:57,614 INFO:  * Restarting with stat
+2024-10-18 14:54:00,699 WARNING:  * Debugger is active!
+2024-10-18 14:54:00,704 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 14:54:04,988 INFO: 127.0.0.1 - - [18/Oct/2024 14:54:04] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:54:04,998 INFO: 127.0.0.1 - - [18/Oct/2024 14:54:04] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:54:05,123 INFO: 127.0.0.1 - - [18/Oct/2024 14:54:05] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 14:54:05,123 INFO: 127.0.0.1 - - [18/Oct/2024 14:54:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:57:42,762 INFO: 127.0.0.1 - - [18/Oct/2024 14:57:42] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 14:57:42,769 INFO: 127.0.0.1 - - [18/Oct/2024 14:57:42] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 14:57:42,790 INFO: 127.0.0.1 - - [18/Oct/2024 14:57:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 14:57:42,796 INFO: 127.0.0.1 - - [18/Oct/2024 14:57:42] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 15:02:09,763 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-18 15:02:10,033 INFO:  * Restarting with stat
+2024-10-18 15:02:13,654 WARNING:  * Debugger is active!
+2024-10-18 15:02:13,660 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 15:05:32,749 INFO: 127.0.0.1 - - [18/Oct/2024 15:05:32] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 15:05:32,760 INFO: 127.0.0.1 - - [18/Oct/2024 15:05:32] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 15:05:32,868 INFO: 127.0.0.1 - - [18/Oct/2024 15:05:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 15:05:32,870 INFO: 127.0.0.1 - - [18/Oct/2024 15:05:32] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 15:07:56,421 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-18 15:07:56,693 INFO:  * Restarting with stat
+2024-10-18 15:07:59,880 WARNING:  * Debugger is active!
+2024-10-18 15:07:59,884 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 15:08:15,832 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-18 15:08:15,832 INFO: [33mPress CTRL+C to quit[0m
+2024-10-18 15:08:15,834 INFO:  * Restarting with stat
+2024-10-18 15:08:18,824 WARNING:  * Debugger is active!
+2024-10-18 15:08:18,828 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 15:08:40,815 INFO: 127.0.0.1 - - [18/Oct/2024 15:08:40] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 15:08:40,828 INFO: 127.0.0.1 - - [18/Oct/2024 15:08:40] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 15:08:40,968 INFO: 127.0.0.1 - - [18/Oct/2024 15:08:40] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-18 15:08:40,976 INFO: 127.0.0.1 - - [18/Oct/2024 15:08:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 15:11:33,793 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-18 15:11:34,091 INFO:  * Restarting with stat
+2024-10-18 15:11:37,217 WARNING:  * Debugger is active!
+2024-10-18 15:11:37,221 INFO:  * Debugger PIN: 640-670-222
+2024-10-18 15:11:43,642 INFO: 127.0.0.1 - - [18/Oct/2024 15:11:43] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-18 15:11:43,665 INFO: 127.0.0.1 - - [18/Oct/2024 15:11:43] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-18 15:11:43,823 INFO: 127.0.0.1 - - [18/Oct/2024 15:11:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-18 15:11:43,832 INFO: 127.0.0.1 - - [18/Oct/2024 15:11:43] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-25 12:58:13,740 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 12:58:13,741 INFO: [33mPress CTRL+C to quit[0m
+2024-10-25 12:58:13,745 INFO:  * Restarting with stat
+2024-10-25 12:58:18,898 WARNING:  * Debugger is active!
+2024-10-25 12:58:18,916 INFO:  * Debugger PIN: 640-670-222
+2024-10-25 12:58:20,785 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:20] "GET / HTTP/1.1" 200 -
+2024-10-25 12:58:20,986 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:20] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-10-25 12:58:21,147 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:21] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:58:21,236 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:58:32,976 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-25 12:58:33,005 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:33] "GET /options HTTP/1.1" 200 -
+2024-10-25 12:58:33,027 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:33] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-10-25 12:58:34,195 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:34] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-25 12:58:34,229 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:34] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-25 12:58:34,234 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-25 12:58:47,776 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:47] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-25 12:58:47,787 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:47] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-25 12:58:47,808 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-25 12:58:47,810 INFO: 127.0.0.1 - - [25/Oct/2024 12:58:47] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-25 13:00:34,970 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-25 13:00:35,568 INFO:  * Restarting with stat
+2024-10-25 13:00:42,534 WARNING:  * Debugger is active!
+2024-10-25 13:00:42,543 INFO:  * Debugger PIN: 640-670-222
+2024-10-25 13:00:52,585 INFO: 127.0.0.1 - - [25/Oct/2024 13:00:52] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-25 13:00:52,607 INFO: 127.0.0.1 - - [25/Oct/2024 13:00:52] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-25 13:00:52,738 INFO: 127.0.0.1 - - [25/Oct/2024 13:00:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-25 13:00:52,738 INFO: 127.0.0.1 - - [25/Oct/2024 13:00:52] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-25 13:02:55,997 INFO: 127.0.0.1 - - [25/Oct/2024 13:02:55] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-25 13:02:56,004 INFO: 127.0.0.1 - - [25/Oct/2024 13:02:56] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-25 13:02:56,021 INFO: 127.0.0.1 - - [25/Oct/2024 13:02:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-25 13:02:56,026 INFO: 127.0.0.1 - - [25/Oct/2024 13:02:56] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-28 14:05:19,727 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-28 14:05:19,728 INFO: [33mPress CTRL+C to quit[0m
+2024-10-28 14:05:19,731 INFO:  * Restarting with stat
+2024-10-28 14:05:26,368 WARNING:  * Debugger is active!
+2024-10-28 14:05:26,375 INFO:  * Debugger PIN: 640-670-222
+2024-10-28 14:05:27,561 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:27] "GET / HTTP/1.1" 200 -
+2024-10-28 14:05:27,830 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:27] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-10-28 14:05:27,854 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:27] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-10-28 14:05:27,902 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-28 14:05:30,256 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-28 14:05:30,284 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:30] "GET /options HTTP/1.1" 200 -
+2024-10-28 14:05:30,319 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:30] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-10-28 14:05:31,495 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:31] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-28 14:05:31,530 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:31] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-28 14:05:31,536 INFO: 127.0.0.1 - - [28/Oct/2024 14:05:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-28 14:06:01,775 INFO: 127.0.0.1 - - [28/Oct/2024 14:06:01] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-28 14:06:01,783 INFO: 127.0.0.1 - - [28/Oct/2024 14:06:01] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-28 14:06:01,804 INFO: 127.0.0.1 - - [28/Oct/2024 14:06:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-28 14:06:01,807 INFO: 127.0.0.1 - - [28/Oct/2024 14:06:01] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-28 14:06:49,588 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-28 14:06:49,974 INFO:  * Restarting with stat
+2024-10-28 14:06:54,997 WARNING:  * Debugger is active!
+2024-10-28 14:06:55,001 INFO:  * Debugger PIN: 640-670-222
+2024-10-28 14:07:14,311 INFO: 127.0.0.1 - - [28/Oct/2024 14:07:14] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-28 14:07:14,326 INFO: 127.0.0.1 - - [28/Oct/2024 14:07:14] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-28 14:07:14,468 INFO: 127.0.0.1 - - [28/Oct/2024 14:07:14] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-28 14:07:14,470 INFO: 127.0.0.1 - - [28/Oct/2024 14:07:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-28 14:10:54,102 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-10-28 14:10:54,558 INFO:  * Restarting with stat
+2024-10-28 14:11:00,461 WARNING:  * Debugger is active!
+2024-10-28 14:11:00,464 INFO:  * Debugger PIN: 640-670-222
+2024-10-28 14:12:46,746 INFO: 127.0.0.1 - - [28/Oct/2024 14:12:46] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-28 14:12:46,776 INFO: 127.0.0.1 - - [28/Oct/2024 14:12:46] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-28 14:12:46,969 INFO: 127.0.0.1 - - [28/Oct/2024 14:12:46] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-10-28 14:12:46,970 INFO: 127.0.0.1 - - [28/Oct/2024 14:12:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-28 14:15:11,625 INFO: 127.0.0.1 - - [28/Oct/2024 14:15:11] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-10-28 14:15:11,634 INFO: 127.0.0.1 - - [28/Oct/2024 14:15:11] "GET /detect_from_images HTTP/1.1" 200 -
+2024-10-28 14:15:11,664 INFO: 127.0.0.1 - - [28/Oct/2024 14:15:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-28 14:15:11,665 INFO: 127.0.0.1 - - [28/Oct/2024 14:15:11] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 13:14:35,809 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 13:14:35,810 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 13:14:35,812 INFO:  * Restarting with stat
+2024-11-01 13:14:39,189 WARNING:  * Debugger is active!
+2024-11-01 13:14:39,194 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 13:14:57,330 INFO: 127.0.0.1 - - [01/Nov/2024 13:14:57] "GET / HTTP/1.1" 200 -
+2024-11-01 13:14:57,486 INFO: 127.0.0.1 - - [01/Nov/2024 13:14:57] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-11-01 13:14:57,504 INFO: 127.0.0.1 - - [01/Nov/2024 13:14:57] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-11-01 13:15:04,137 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:04] "GET / HTTP/1.1" 200 -
+2024-11-01 13:15:04,252 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:04] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-11-01 13:15:04,262 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:04] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-11-01 13:15:05,357 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-01 13:15:06,869 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-01 13:15:06,891 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:06] "GET /options HTTP/1.1" 200 -
+2024-11-01 13:15:06,913 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:06] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-11-01 13:15:08,127 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:08] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 13:15:08,157 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:08] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 13:15:08,167 INFO: 127.0.0.1 - - [01/Nov/2024 13:15:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 13:16:05,882 INFO: 127.0.0.1 - - [01/Nov/2024 13:16:05] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 13:16:05,892 INFO: 127.0.0.1 - - [01/Nov/2024 13:16:05] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 13:16:05,921 INFO: 127.0.0.1 - - [01/Nov/2024 13:16:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 13:16:05,924 INFO: 127.0.0.1 - - [01/Nov/2024 13:16:05] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 13:21:43,100 INFO: 127.0.0.1 - - [01/Nov/2024 13:21:43] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 13:21:43,107 INFO: 127.0.0.1 - - [01/Nov/2024 13:21:43] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 13:21:43,134 INFO: 127.0.0.1 - - [01/Nov/2024 13:21:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 13:21:43,135 INFO: 127.0.0.1 - - [01/Nov/2024 13:21:43] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 13:22:43,088 INFO: 127.0.0.1 - - [01/Nov/2024 13:22:43] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 13:22:43,096 INFO: 127.0.0.1 - - [01/Nov/2024 13:22:43] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 13:22:43,119 INFO: 127.0.0.1 - - [01/Nov/2024 13:22:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 13:22:43,120 INFO: 127.0.0.1 - - [01/Nov/2024 13:22:43] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:26:47,577 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 14:26:47,577 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 14:26:47,580 INFO:  * Restarting with stat
+2024-11-01 14:26:50,278 WARNING:  * Debugger is active!
+2024-11-01 14:26:50,283 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 14:26:52,363 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:52] "GET / HTTP/1.1" 200 -
+2024-11-01 14:26:52,545 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:52] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:26:52,571 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:52] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-11-01 14:26:55,083 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-01 14:26:58,400 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-01 14:26:58,412 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:58] "GET /options HTTP/1.1" 200 -
+2024-11-01 14:26:58,432 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:58] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-11-01 14:26:59,799 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:59] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:26:59,828 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:26:59,830 INFO: 127.0.0.1 - - [01/Nov/2024 14:26:59] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:27:48,844 INFO: 127.0.0.1 - - [01/Nov/2024 14:27:48] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 14:27:48,851 INFO: 127.0.0.1 - - [01/Nov/2024 14:27:48] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:27:48,869 INFO: 127.0.0.1 - - [01/Nov/2024 14:27:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:27:48,871 INFO: 127.0.0.1 - - [01/Nov/2024 14:27:48] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:32:58,282 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 14:32:58,282 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 14:32:58,285 INFO:  * Restarting with stat
+2024-11-01 14:33:00,967 WARNING:  * Debugger is active!
+2024-11-01 14:33:00,970 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 14:33:19,190 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:19] "GET / HTTP/1.1" 200 -
+2024-11-01 14:33:19,383 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:19] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:33:19,390 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:19] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-11-01 14:33:22,810 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-01 14:33:22,822 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:22] "GET /options HTTP/1.1" 200 -
+2024-11-01 14:33:22,845 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:22] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-11-01 14:33:23,929 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:23] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:33:23,948 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:33:23,960 INFO: 127.0.0.1 - - [01/Nov/2024 14:33:23] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:34:47,651 INFO: 127.0.0.1 - - [01/Nov/2024 14:34:47] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 14:34:50,189 INFO: 127.0.0.1 - - [01/Nov/2024 14:34:50] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 14:34:50,490 INFO: 127.0.0.1 - - [01/Nov/2024 14:34:50] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:34:51,762 INFO: 127.0.0.1 - - [01/Nov/2024 14:34:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:34:51,764 INFO: 127.0.0.1 - - [01/Nov/2024 14:34:51] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:48:15,234 INFO: 127.0.0.1 - - [01/Nov/2024 14:48:15] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:48:15,257 INFO: 127.0.0.1 - - [01/Nov/2024 14:48:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:48:15,263 INFO: 127.0.0.1 - - [01/Nov/2024 14:48:15] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:49:07,237 INFO: 127.0.0.1 - - [01/Nov/2024 14:49:07] "POST /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:49:07,288 INFO: 127.0.0.1 - - [01/Nov/2024 14:49:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-11-01 14:49:07,584 INFO: 127.0.0.1 - - [01/Nov/2024 14:49:07] "[35m[1mGET /output_image/benign_7.png HTTP/1.1[0m" 500 -
+2024-11-01 14:50:52,367 INFO: 127.0.0.1 - - [01/Nov/2024 14:50:52] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:50:52,388 INFO: 127.0.0.1 - - [01/Nov/2024 14:50:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:50:52,397 INFO: 127.0.0.1 - - [01/Nov/2024 14:50:52] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:53:58,705 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 14:53:59,846 INFO:  * Restarting with stat
+2024-11-01 14:55:38,452 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 14:55:38,452 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 14:55:38,456 INFO:  * Restarting with stat
+2024-11-01 14:55:41,168 WARNING:  * Debugger is active!
+2024-11-01 14:55:41,173 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 14:56:26,804 INFO: 127.0.0.1 - - [01/Nov/2024 14:56:26] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:56:26,946 INFO: 127.0.0.1 - - [01/Nov/2024 14:56:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:56:26,951 INFO: 127.0.0.1 - - [01/Nov/2024 14:56:26] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 14:57:16,410 INFO: 127.0.0.1 - - [01/Nov/2024 14:57:16] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 14:57:16,427 INFO: 127.0.0.1 - - [01/Nov/2024 14:57:16] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 14:57:16,456 INFO: 127.0.0.1 - - [01/Nov/2024 14:57:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 14:57:16,457 INFO: 127.0.0.1 - - [01/Nov/2024 14:57:16] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:09:39,979 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:09:40,659 INFO:  * Restarting with stat
+2024-11-01 15:10:21,985 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 15:10:21,985 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 15:10:21,988 INFO:  * Restarting with stat
+2024-11-01 15:10:24,577 WARNING:  * Debugger is active!
+2024-11-01 15:10:24,581 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:10:30,120 INFO: 127.0.0.1 - - [01/Nov/2024 15:10:30] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:10:31,176 INFO: 127.0.0.1 - - [01/Nov/2024 15:10:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:10:31,178 INFO: 127.0.0.1 - - [01/Nov/2024 15:10:31] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:11:33,388 INFO: 127.0.0.1 - - [01/Nov/2024 15:11:33] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 15:11:33,397 INFO: 127.0.0.1 - - [01/Nov/2024 15:11:33] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:11:33,427 INFO: 127.0.0.1 - - [01/Nov/2024 15:11:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:11:33,432 INFO: 127.0.0.1 - - [01/Nov/2024 15:11:33] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:12:32,690 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:12:33,084 INFO:  * Restarting with stat
+2024-11-01 15:12:37,539 WARNING:  * Debugger is active!
+2024-11-01 15:12:37,542 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:13:26,130 INFO: 127.0.0.1 - - [01/Nov/2024 15:13:26] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 15:13:26,143 INFO: 127.0.0.1 - - [01/Nov/2024 15:13:26] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:13:26,270 INFO: 127.0.0.1 - - [01/Nov/2024 15:13:26] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:13:26,270 INFO: 127.0.0.1 - - [01/Nov/2024 15:13:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:38:21,348 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:38:22,445 INFO:  * Restarting with stat
+2024-11-01 15:38:27,796 WARNING:  * Debugger is active!
+2024-11-01 15:38:27,802 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:38:37,501 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:38:37,794 INFO:  * Restarting with stat
+2024-11-01 15:38:40,805 WARNING:  * Debugger is active!
+2024-11-01 15:38:40,808 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:39:03,146 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:03] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:39:03,261 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:03] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:39:03,261 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:39:08,643 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:08] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 15:39:08,648 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:08] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:39:08,664 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:39:08,672 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:08] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:39:14,453 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:14] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 15:39:14,462 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:14] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:39:14,481 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:39:14,483 INFO: 127.0.0.1 - - [01/Nov/2024 15:39:14] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:43:12,798 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:43:13,072 INFO:  * Restarting with stat
+2024-11-01 15:44:07,476 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 15:44:07,476 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 15:44:07,478 INFO:  * Restarting with stat
+2024-11-01 15:44:10,181 WARNING:  * Debugger is active!
+2024-11-01 15:44:10,185 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:44:12,420 INFO: 127.0.0.1 - - [01/Nov/2024 15:44:12] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:44:12,538 INFO: 127.0.0.1 - - [01/Nov/2024 15:44:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:44:12,541 INFO: 127.0.0.1 - - [01/Nov/2024 15:44:12] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:46:03,032 INFO: 127.0.0.1 - - [01/Nov/2024 15:46:03] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 15:46:03,080 INFO: 127.0.0.1 - - [01/Nov/2024 15:46:03] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:46:04,065 INFO: 127.0.0.1 - - [01/Nov/2024 15:46:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:46:04,079 INFO: 127.0.0.1 - - [01/Nov/2024 15:46:04] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:54:59,144 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:55:00,740 INFO:  * Restarting with stat
+2024-11-01 15:55:05,916 WARNING:  * Debugger is active!
+2024-11-01 15:55:05,924 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:55:06,102 INFO: 127.0.0.1 - - [01/Nov/2024 15:55:06] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:55:06,240 INFO: 127.0.0.1 - - [01/Nov/2024 15:55:06] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:55:06,242 INFO: 127.0.0.1 - - [01/Nov/2024 15:55:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:57:00,188 INFO: 127.0.0.1 - - [01/Nov/2024 15:57:00] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 15:57:00,195 INFO: 127.0.0.1 - - [01/Nov/2024 15:57:00] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:57:00,243 INFO: 127.0.0.1 - - [01/Nov/2024 15:57:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:57:00,250 INFO: 127.0.0.1 - - [01/Nov/2024 15:57:00] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 15:59:21,222 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:59:21,599 INFO:  * Restarting with stat
+2024-11-01 15:59:25,707 WARNING:  * Debugger is active!
+2024-11-01 15:59:25,711 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:59:27,310 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 15:59:27,607 INFO:  * Restarting with stat
+2024-11-01 15:59:30,791 WARNING:  * Debugger is active!
+2024-11-01 15:59:30,794 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 15:59:30,978 INFO: 127.0.0.1 - - [01/Nov/2024 15:59:30] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 15:59:31,114 INFO: 127.0.0.1 - - [01/Nov/2024 15:59:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 15:59:31,116 INFO: 127.0.0.1 - - [01/Nov/2024 15:59:31] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 16:00:29,540 INFO: 127.0.0.1 - - [01/Nov/2024 16:00:29] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 16:00:29,546 INFO: 127.0.0.1 - - [01/Nov/2024 16:00:29] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 16:00:29,567 INFO: 127.0.0.1 - - [01/Nov/2024 16:00:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 16:00:29,571 INFO: 127.0.0.1 - - [01/Nov/2024 16:00:29] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 16:01:34,012 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 16:01:34,425 INFO:  * Restarting with stat
+2024-11-01 16:01:38,370 WARNING:  * Debugger is active!
+2024-11-01 16:01:38,373 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 16:03:18,894 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 16:03:18,894 INFO: [33mPress CTRL+C to quit[0m
+2024-11-01 16:03:18,896 INFO:  * Restarting with stat
+2024-11-01 16:03:21,609 WARNING:  * Debugger is active!
+2024-11-01 16:03:21,612 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 16:04:57,743 INFO: 127.0.0.1 - - [01/Nov/2024 16:04:57] "[32mPOST /detect_from_images HTTP/1.1[0m" 302 -
+2024-11-01 16:04:58,185 INFO: 127.0.0.1 - - [01/Nov/2024 16:04:58] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 16:04:58,964 INFO: 127.0.0.1 - - [01/Nov/2024 16:04:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 16:04:58,980 INFO: 127.0.0.1 - - [01/Nov/2024 16:04:58] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 16:05:51,716 INFO:  * Detected change in 'C:\\Users\\user\\Desktop\\cancer_detection\\app.py', reloading
+2024-11-01 16:05:52,373 INFO:  * Restarting with stat
+2024-11-01 16:05:58,166 WARNING:  * Debugger is active!
+2024-11-01 16:05:58,175 INFO:  * Debugger PIN: 640-670-222
+2024-11-01 16:05:58,384 INFO: 127.0.0.1 - - [01/Nov/2024 16:05:58] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-01 16:05:58,508 INFO: 127.0.0.1 - - [01/Nov/2024 16:05:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 16:05:58,515 INFO: 127.0.0.1 - - [01/Nov/2024 16:05:58] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-01 16:07:56,883 INFO: 127.0.0.1 - - [01/Nov/2024 16:07:56] "POST /detect_from_images HTTP/1.1" 200 -
+2024-11-01 16:07:56,921 INFO: 127.0.0.1 - - [01/Nov/2024 16:07:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-11-01 16:07:56,925 INFO: 127.0.0.1 - - [01/Nov/2024 16:07:56] "GET /output_image/benign_1.png HTTP/1.1" 200 -
+2024-11-04 09:50:35,492 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-04 09:50:35,492 INFO: [33mPress CTRL+C to quit[0m
+2024-11-04 09:50:35,495 INFO:  * Restarting with stat
+2024-11-04 09:50:38,320 WARNING:  * Debugger is active!
+2024-11-04 09:50:38,326 INFO:  * Debugger PIN: 640-670-222
+2024-11-04 09:50:53,005 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:53] "GET / HTTP/1.1" 200 -
+2024-11-04 09:50:53,161 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:53] "[36mGET /static/homestyles.css HTTP/1.1[0m" 304 -
+2024-11-04 09:50:53,173 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:53] "[36mGET /static/breast_cancer_background.jpg HTTP/1.1[0m" 304 -
+2024-11-04 09:50:53,197 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-04 09:50:56,104 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-04 09:50:56,116 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:56] "GET /options HTTP/1.1" 200 -
+2024-11-04 09:50:56,143 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:56] "[33mGET /static/options.css HTTP/1.1[0m" 404 -
+2024-11-04 09:50:57,367 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:57] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-04 09:50:57,395 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 09:50:57,396 INFO: 127.0.0.1 - - [04/Nov/2024 09:50:57] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -
+2024-11-04 09:53:58,788 INFO: 127.0.0.1 - - [04/Nov/2024 09:53:58] "POST /detect_from_images HTTP/1.1" 200 -
+2024-11-04 09:53:58,831 INFO: 127.0.0.1 - - [04/Nov/2024 09:53:58] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-11-04 09:53:58,841 INFO: 127.0.0.1 - - [04/Nov/2024 09:53:58] "GET /output_image/benign_19.png HTTP/1.1" 200 -
+2024-11-04 10:09:24,283 INFO: 127.0.0.1 - - [04/Nov/2024 10:09:24] "GET /detect_from_images HTTP/1.1" 200 -
+2024-11-04 10:09:25,223 INFO: 127.0.0.1 - - [04/Nov/2024 10:09:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 10:09:25,244 INFO: 127.0.0.1 - - [04/Nov/2024 10:09:25] "[36mGET /static/scan.gif HTTP/1.1[0m" 304 -

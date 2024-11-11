@@ -1,0 +1,2 @@
+image_detection/tf/saved_model/saved_model.pb filter=lfs diff=lfs merge=lfs -text
+image_detection/tf/saved_model/variables/*.data-* filter=lfs diff=lfs merge=lfs -text

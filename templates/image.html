@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='image_styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Breast Cancer Detection</h1>
+        <img src="background.jpg" alt="Background Image" class="background">
+        <div class="form-container">
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="predict()">Predict</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

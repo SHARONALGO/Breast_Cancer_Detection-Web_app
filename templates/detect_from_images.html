@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #e91e63;
+            margin-bottom: 20px;
+        }
+
+        .container form {
+            margin-bottom: 20px;
+        }
+
+        .container input[type="file"] {
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        .container button {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .container button:hover {
+            background-color: #d81b60;
+        }
+
+        .container button:active {
+            background-color: #c2185b;
+        }
+
+        .scanning-animation {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .scanning-animation img {
+            width: 150px;
+            height: 150px;
+            animation: scan 2s infinite;
+        }
+
+        @keyframes scan {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ username }}</h1>
+        <h2>Upload a PNG Image for Detection</h2>
+
+        <form id="image-form" action="{{ url_for('detect_from_images') }}" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".png" required><br> <!-- Updated 'name' attribute -->
+            <button type="submit">Submit Image</button>
+        </form>
+
+        <div class="scanning-animation" id="scanning-animation">
+            <p>Scanning image, please wait...</p>
+            <img src="{{ url_for('static', filename='scan.gif') }}" alt="Scanning Animation">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('image-form').addEventListener('submit', function() {
+            // Show the scanning animation when the form is submitted
+            document.getElementById('scanning-animation').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

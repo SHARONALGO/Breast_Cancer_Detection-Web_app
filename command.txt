@@ -1,0 +1,14 @@
+python predict.py --input "../tf/input" --output "../tf/output" --threshold 0.7 --model "../tf/saved_model" --label "../tf/label_map.pbtxt"
+2024-11-01 13:25:28.400802: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Predicting for ../tf/input\benign_7.png...
+2024-11-01 13:26:09.933210: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 377318400 exceeds 10% of free system memory.
+2024-11-01 13:26:10.261594: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 377318400 exceeds 10% of free system memory.
+2024-11-01 13:26:11.285709: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 88780800 exceeds 10% of free system memory.
+2024-11-01 13:26:11.327824: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 88780800 exceeds 10% of free system memory.
+2024-11-01 13:26:11.334527: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 88780800 exceeds 10% of free system memory.
+Prediction saved to ../tf/output\benign_7.png
+
+C:\Users\user\Desktop\cancer_detection\hanna\Scripts\python.exe C:\Users\user\Desktop\cancer_detection\image_detection\tf\predict.py --input "C:\Users\user\Desktop\cancer_detection\image_detection\tf\input\benign_1.png" --output "C:\Users\user\Desktop\cancer_detection\image_detection\tf\output" --threshold 0.7 --model "C:\Users\user\Desktop\cancer_detection\image_detection\tf\saved_model" --label "C:\Users\user\Desktop\cancer_detection\image_detection\tf\label_map.pbtxt"
+
+             
