@@ -13,7 +13,7 @@ This application provides machine learning-based prediction and image detection 
 ## Screenshots
 
 ### Login Page
-![Login Page](/api/placeholder/800/400)
+![Login Page](/screen_shots/login)
 *Secure login interface for user authentication*
 
 ### Prediction Page
