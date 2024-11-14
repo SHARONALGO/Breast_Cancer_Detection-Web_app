@@ -17,19 +17,19 @@ This application provides machine learning-based prediction and image detection 
 *Secure login interface for user authentication*
 
 ### Prediction Page
-![Prediction Page](/api/placeholder/800/400)
+![Prediction Page](/screen_shots/data_upload.png)
 *Input interface for making predictions*
 
 ### Prediction Results
-![Prediction Results](/api/placeholder/800/400)
+![Prediction Results](/screen_shots/prediction_result.png)
 *Detailed view of prediction outputs and analysis*
 
 ### Image Detection
-![Image Detection](/api/placeholder/800/400)
+![Image Detection](/screen_shots/image_prediction.png)
 *Interface for uploading and analyzing images*
 
 ### Analysis Dashboard
-![Analysis Dashboard](/api/placeholder/800/400)
+![Analysis Dashboard](/screen_shots/analysis.png)
 *Comprehensive analysis dashboard with metrics and visualizations*
 
 ## Getting Started
@@ -59,9 +59,9 @@ python app.py
 
 ## Technologies Used
 
-- Frontend: [Your frontend framework]
-- Backend: [Your backend framework]
-- ML Framework: [Your ML framework]
+- Frontend: Flask 
+- Backend: 
+- ML Framework: Scikit-learn and Tensorflow 
 
 ## Contributing
 
