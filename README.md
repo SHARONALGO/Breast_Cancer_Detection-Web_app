@@ -59,8 +59,8 @@ python app.py
 
 ## Technologies Used
 
-- Frontend: Flask 
-- Backend: 
+- Frontend: Html and Css
+- Backend: Flask
 - ML Framework: Scikit-learn and Tensorflow 
 
 ## Contributing
