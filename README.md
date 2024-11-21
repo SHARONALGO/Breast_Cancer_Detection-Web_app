@@ -5,8 +5,8 @@ This application provides machine learning-based prediction and image detection 
 ## Features
 
 - User authentication and secure login
-- Prediction capabilities for [specify what your model predicts]
-- Image-based detection for [specify what your model detects]
+- Prediction capabilities for Benign and Malignant tumors. 
+- Image-based detection for X-ray images.
 - Detailed analysis dashboard
 - Easy-to-use interface
 
